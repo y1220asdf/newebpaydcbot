@@ -74,7 +74,7 @@ async def on_message(message):
         embed.add_field(name='繳費期限', value=ExpireDate, inline=True)
         embed.add_field(name='訂單編號', value=MerchantOrderNo, inline=True)
         embed.add_field(name='交易序號', value=TradeNo, inline=True)
-        embed.set_footer(text='創作心得: ' + "爽")
+        embed.set_footer(text='創作心得: ' + "開心")
         await message.channel.send(embed=embed)
 
 client.run('') 
