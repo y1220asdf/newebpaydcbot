@@ -77,4 +77,4 @@ async def on_message(message):
         embed.set_footer(text='創作心得: ' + "爽")
         await message.channel.send(embed=embed)
 
-client.run('OTk0ODg3OTMwMjYwNzUwNDE2.GA_AYz.7hl4O3TaVtAD0iUFMi8-ezV3WdX5Mo-1wMr5AE') 
+client.run('') 
